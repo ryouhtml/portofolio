@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Wangsit Bagus Satriatama (Ryou) — Vibe Coder &amp; Web Architect</title>
+    <meta
+      name="description"
+      content="Wangsit Bagus Satriatama — Ryou (@ryouhtml). Vibe Coder &amp; Web Architect from Pekalongan, Indonesia. Building web applications and API ecosystems through prompt-guided AI workflows. SMKN 1 Kedungwuni · XI TJKT 3 · JCC Skensa."
+    />
+    <meta
+      name="keywords"
+      content="Wangsit Bagus Satriatama, Ryou, ryouhtml, vibe coder, web architect, Pekalongan, SMKN 1 Kedungwuni, XI TJKT 3, JCC Skensa, React, TypeScript, Indonesia developer"
+    />
+    <meta name="author" content="Wangsit Bagus Satriatama" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wangsit Bagus Satriatama — Vibe Coder &amp; Web Architect" />
+    <meta
+      property="og:description"
+      content="Building web applications and API ecosystems through prompt-guided AI workflows. Pekalongan, Central Java, Indonesia."
+    />
+    <meta property="og:site_name" content="WANGSIT — Ryou" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wangsit Bagus Satriatama — Vibe Coder &amp; Web Architect" />
+    <meta
+      name="twitter:description"
+      content="Building web applications and API ecosystems through prompt-guided AI workflows."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Pre-hydration theme: no flash of wrong mode -->
+    <script>
+      (function () {
+        try {
+          var stored = window.localStorage.getItem("wbs-theme");
+          var prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)"
+          ).matches;
+          var dark = stored ? stored === "dark" : prefersDark;
+          var root = document.documentElement;
+          root.classList.toggle("dark", dark);
+          root.style.colorScheme = dark ? "dark" : "light";
+        } catch (e) {
+          /* noop */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
