@@ -1,0 +1,14 @@
+[
+  {"file":"react.svg","name":"React"},
+  {"file":"nextjs.svg","name":"Next.js"},
+  {"file":"typescript.svg","name":"TypeScript"},
+  {"file":"tailwind.svg","name":"Tailwind CSS"},
+  {"file":"framermotion.svg","name":"Framer Motion"},
+  {"file":"nodejs.svg","name":"Node.js"},
+  {"file":"firebase.svg","name":"Firebase"},
+  {"file":"supabase.svg","name":"Supabase"},
+  {"file":"vite.svg","name":"Vite"},
+  {"file":"vercel.svg","name":"Vercel"},
+  {"file":"github.svg","name":"GitHub"},
+  {"file":"figma.svg","name":"Figma"}
+]

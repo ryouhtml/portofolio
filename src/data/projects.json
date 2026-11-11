@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "KiraStream",
+    "category": "Web App",
+    "year": "2024",
+    "description": "Platform streaming anime, manga, novel, dan webtoon berbasis Next.js 14 PWA. Fitur lengkap: pencarian, bookmark, history, dark mode, dan installable sebagai app.",
+    "tech": ["Next.js 14", "TypeScript", "Tailwind CSS", "PWA"],
+    "link": "https://github.com/ryouhtml/kirastream",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "animasu-api",
+    "category": "API",
+    "year": "2024",
+    "description": "REST API scraper untuk konten anime dan manga menggunakan Node.js, Cheerio, dan Axios. Di-deploy di Vercel dengan endpoint publik.",
+    "tech": ["Node.js", "Cheerio", "Axios", "Vercel"],
+    "link": "https://github.com/ryouhtml/animasu-api",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "JCC Lensa Skensa",
+    "category": "Frontend",
+    "year": "2024",
+    "description": "Website open recruitment untuk klub jurnalistik sekolah SMKN 1 Kedungwuni. Dibangun dengan React, TypeScript, dan Vite.",
+    "tech": ["React", "TypeScript", "Vite", "Tailwind CSS"],
+    "link": "https://github.com/ryouhtml/jcc-lensa-skensa",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "anizone",
+    "category": "Web App",
+    "year": "2024",
+    "description": "Website anime berbasis JavaScript dengan tampilan modern dan fitur pencarian.",
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "link": "https://github.com/ryouhtml/anizone",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "kanabot",
+    "category": "Tool",
+    "year": "2024",
+    "description": "Bot JavaScript untuk otomasi dan interaksi berbasis chat.",
+    "tech": ["JavaScript", "Node.js"],
+    "link": "https://github.com/ryouhtml/kanabot",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "bootstrap-php",
+    "category": "Frontend",
+    "year": "2023",
+    "description": "Template starter PHP dengan Bootstrap untuk pengembangan web cepat.",
+    "tech": ["PHP", "Bootstrap", "HTML", "CSS"],
+    "link": "https://github.com/ryouhtml/bootstrap-php",
+    "featured": false
+  }
+]
